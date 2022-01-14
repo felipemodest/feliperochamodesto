@@ -7,18 +7,3 @@
 feliperochamodesto/feliperochamodesto is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
-
-const express = require('express')
-const app = express()
-
-const webDeveloper = {name:"Felipe", stack:"Full-Stack-Developer"}
-
-app.get('/', (req, res) =>{
-  return res.send(webDeveloper)
-}),
-
-app.listen(3000, () =>{
-  console.log("Initing code...")
-})
-
